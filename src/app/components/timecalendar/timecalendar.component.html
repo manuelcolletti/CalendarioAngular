@@ -1,0 +1,5 @@
+<app-clock (onDateChanged)="clockOnDateChanged($event)"></app-clock>
+<br/>
+<app-monthselector (onSelectedMonthChanged)="monthSelectorOnSelectedMonthChanged($event)"></app-monthselector>
+<br/><br/>
+<app-calendar [currentDateTime]=currentDate [selectedMonth]=selectedMonth></app-calendar>
